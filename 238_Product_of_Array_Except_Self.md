@@ -26,20 +26,18 @@ Output: [0,0,9,0,0]
 
 
 
------------------------------------------------------------------algorithm with code------------------------------------------------------------------------------
+# ALGORITHM 
 1. If any array have one zero than except that zero index if we find product the ans is 0
 2. if any array have two zero than all array is 0
-3. if no zero than first find product of array and than use array[i] = productofarray/nums[i]  to get product of array 
+3. if no zero than first find product of array and than use array[i] = productofarray/nums[i]  to get product of array
 
 
 
 
+## CODE 
 
-
-
-
-
-`class Solution {
+```
+class Solution {
     public int[] productExceptSelf(int[] nums) {
         int[] num = new int[nums.length];
         int zeroes = 0;
@@ -81,4 +79,10 @@ Output: [0,0,9,0,0]
         }
         return num;
     }
-}`
+}
+```
+
+
+
+
+
